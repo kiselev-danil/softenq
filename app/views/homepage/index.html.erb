@@ -1,1 +1,5 @@
-<%= link_to 'Выйти', destroy_user_session_path, :method => :delete %>
+<%= stylesheet_link_tag "personProfile" %>
+
+<div class="testClass">
+  <%= link_to '<button type="button">Выйти</button>'.html_safe, destroy_user_session_path, :method => :delete %>
+</div>
